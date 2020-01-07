@@ -15,6 +15,6 @@
     if(isset($members[$user_id])&&
     $members[$user_id]['pw']==$user_pw){
         echo'{"user_id":"'.$user_id.'",
-            "user_name":"'$members[$user_id]['name'].'"}';
+            "user_name":"'.$members[$user_id]['name'].'"}';
     }
 ?>
